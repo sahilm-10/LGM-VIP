@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.home{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./Images/city.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.home h1{
+  font-weight: bold;
+  font-size: 3.2em;
+}
+
+.home p{
+  font-style:italic;
+  font-size: 1.1em;
+}
+.home .btn1{
+  height: 50px;
+  width: 150px;
+  background-color: turquoise;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.home .btn2{
+  height: 50px;
+  width: 150px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.card:hover{
+  transform: scale(0.2s);
+}
+.projects .fas{
+  color: turquoise;
+  font-size: 80px;
+  padding-left: 40px;
+}
+
+.about p{
+  color: grey;
+}
+.about button{
+  background-color: rgb(165, 164, 164);
+}
+.projects #project1:hover{
+  cursor: pointer;
+  background-color: rgb(218, 216, 216);
+}
+
+.profile{
+  height:200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social_links{
+  background-color: rgba(137, 43, 226, 0);
+  transition: all 0.5s ease-in-out !important;
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: "hidden";
+}
+.social_links:hover{
+  background-color: rgba(100, 120, 173, 0.616);
+  background-size: cover;
+  overflow: "hidden";
+}
+.social_links:hover > .social_icons{
+  display:inline;
+}
+.social_icons{
+  height: 30px;
+  width: 30px;
+  display: none;
+  transition: all 0.5s ease-in-out !important;
+  position: absolute;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  background-image: url("/Images/about_1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+#social_fb{
+  left: 30%;
+  background-image: url('/Images/facebook.svg');
+}
+#social_t{
+  left: 50%;
+  background-image: url('/Images/twitter.svg');
+}
+#social_g{
+  left: 70%;
+  background-image: url('/Images/google.svg');
+}
+
+.btn2:hover{
+  background-color: turquoise;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 155px;
+  transition: 0.7s;
+
+}
+
+.scrolling-wrapper{
+  overflow: hidden;
+}
+
+.pricing h3{
+  font-size: 4em;
+}
+
+.feature p{
+  color: grey;
+}
+
+.card{
+  margin-right: 10px;
+
+}
+
+.people p{
+  color: grey;
+  font-size: 1.5em;
+}
+.people h1{
+  font-size: 2em;
+}
+
+.main-content h1{
+  font-size: 4em;
+}
+.main-content p{
+  font-size: 1em;
+}
+.main-content img:hover{
+  cursor: pointer;
+}
+
+#icon{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: turquoise;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 45px;
+  text-align: center;
+
+}
+
+#icon:hover{
+  height: 105px;
+  width: 105px;
+  background-color: black;
+  color: #fff;
+}
+/* .break{
+  width: 1oo%;
+} */
+
+.carousel-item{
+   height: 300px auto;
+}
+
+.about .p1{
+  font-size: 1.3em;
+  color:grey
+}
+.about p{
+  color:grey
+}
+
+.projects p{
+  color:grey
+}
+
+#project1{
+  background-color: #fff;
+  padding: 20px 0;
+}
+.project p{
+  color: grey;
+}
+
+.pricing .card{
+  
+  border-right: 1px solid black;
+
+}
+
+.btn .btn-outline-primary{
+  padding-left: 30px;
+}
+.pricing h1{
+  font-size: 1.3em;
+  color: grey;
+}
+
+.gallery img{
+  width: 270px;
+  height: 200px;
+  display: inline-block;
+  border-left: 1px solid white;
+  transition: transform 1s, filter 2s ease-in-out;
+}
+.gallery .container p{
+  font-size: 1.5em;
+  color: grey;
+}
+.gallery img:hover{
+  transform: scale(0.9);
+}
+
+.videos .carousel-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* background-color: blueviolet; */
+}
+
+.btn{
+  background-color: turquoise;
+  color: rgb(233, 233, 233);
+  line-height: 2;
+  font-weight:bold ;
+}
+
+.letter{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+.letter input{
+  height: 43px;
+  width: 43%;
+  background: rgb(187, 184, 184);
+  border: none;
+  color: grey;
+
+}
+
+.feature .card{
+  cursor: pointer;
+}
+.feature .card:hover{
+  background-color:  rgb(228, 222, 222);
+  color: black;
+}
+
+.letter .fab{
+  font-size: 30px;
+  color: #fff;
+  padding: 3px 20px;
+}
+.letter .fab:hover{
+  cursor: pointer;
+  color:turquoise
+}
+footer{
+  color: #fff;
+  background-color: grey;
+
+
+}
+
+footer p{
+  margin-top: 5px;
+}
